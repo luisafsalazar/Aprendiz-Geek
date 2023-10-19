@@ -1,6 +1,37 @@
-.caja{
-    background-color: chartreuse;
-    width: 200px;
-    height: 200px;
+/*
+Selectores simples:
+    -Selector universal: se asigna con *
+    -Selector de tipo de etiqueta
+Selectores de atributo
+    -ID
+    -class
+    -Otros atributos
+    (atributo)
+Selectores agrupados
+
+Selectores compuestos:
+    -Selectores agrupados
+    -Selectores combinados
+
+*/
+
+*{
+    background-color: lightpink;
 }
 
+p{
+    background-color: aqua;
+}
+
+#titulo{
+    border: 2px solid red;
+}
+
+.texto{
+    background-color: blueviolet;
+}
+
+[href]{
+    background-color: yellowgreen;
+    color: white;
+}
