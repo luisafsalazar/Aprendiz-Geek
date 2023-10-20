@@ -1,0 +1,29 @@
+body {
+    margin: 10px;
+    background-color: rgb(148, 148, 246);
+}
+.container {
+    margin: 10%;
+    padding: 15px; /*Para que separe*/
+    font-family: sans-serif; /*tipo de letra*/
+    border-radius: 15px; /*Redondea los bordes*/
+    background-color: antiquewhite; 
+}
+
+label {
+    display: block; /**/
+    margin-bottom: 5px; 
+}
+
+input{
+    width: 100%; /*Para que utilice toda la línea*/
+    padding: 5px; /*No queda tan pegado*/
+    margin-bottom: 10px
+}
+
+#resultado {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    color: black;
+}

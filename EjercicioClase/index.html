@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/EjercicioClase/styles.css"
+
+</head>
+<body>
+    <main>
+        <h1>Hola primera clase</h1>
+        <div class = "container">
+        <form>
+            <label>Ingresa Nota del parcial 1: </label>
+            <input type="number" id = "p1" required/>
+            <div id="mp1"></div>
+            </div>
+            <label>Ingresa Nota del parcial 2: </label>
+            <input type="number" id="p2" required />
+            <label>Ingresa Nota del parcial 3: </label>
+            <input type="number" id="p3" required />
+            <label>Ingresa Nota del examen final: </label>
+            <input type="number" id="exf" required />
+            <label>Ingresa Nota del trabajo final: </label>
+            <input type="number" id="tgrupal" required />
+            <button type = "button" onclick="CalcularNota()">Calcular </button>
+        </form>
+        <div id = "resultado"></div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+
+</body>
+</html>
