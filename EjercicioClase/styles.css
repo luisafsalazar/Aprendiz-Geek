@@ -1,6 +1,7 @@
 body {
     margin: 10px;
     background-color: rgb(148, 148, 246);
+    font-family: 'Roboto Slab', serif;
 }
 .container {
     margin: 10%;
